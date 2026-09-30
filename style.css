@@ -1,31 +1,48 @@
 /* ↓ EN LAS PRIMERA LÍNEA PODEMOS ENLAZAR LAS FUENTES QUE USAREMOS ↓ */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 /* ↓ A PARTIR DE ESE PUNTO PODEMOS LLAMAR TODAS LAS PROPIEDADES DE NUESTRAS CLASES Y ID´S ↓ */
 body {
-  background-color: #ffaffc;
+  background-color: #F4F1EA;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  /* font-family: 'Nunito Sans';*/
-  font-family: 'Honk', system-ui;
-  font-weight: 500;
-  margin: 0;
-  position: absolute;
-  font-size: 20vh;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    color: #263238;
+    margin: 0;
+    font-size: 8vw;
+    line-height: 1;
+    max-width: 900px;
 }
 
 a {
-  color: blue;
+  color: #263238;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #36fcff;
+  background-color: #DDE5D8;
+}
+
+/* ↓ SUBTÍTULOS ↓ */
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    color: #263238;
+    font-size: 3vw;
+}
+
+
+/* ↓ PÁRRAFOS ↓ */
+
+p {
+    font-family: Garamond, serif;
+    color: #263238;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 700px;
 }
