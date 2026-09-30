@@ -5,17 +5,17 @@
 body {
   background-color: #E9E2D0;
   margin: 0;
-  padding: 0;
+  padding: 40px;
 }
 
 h1 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     color: #263238;
-    margin: 0;
+    margin: 0 0 40px 0;
     font-size: 5vw;
     line-height: 1;
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 a {
@@ -33,7 +33,10 @@ h2 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     color: #263238;
+    margin-top: 60px;
+    margin-bottom: 25px;
     font-size: 3vw;
+  
 }
 
 
@@ -44,5 +47,16 @@ p {
     color: #263238;
     font-size: 1.1em;
     line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+/* ↓ LISTA ↓ */
+
+ul {
+    font-family: 'EB Garamond', serif;
+    color: #263238;
+    font-size: 1.1em;
+    line-height: 1.5;
     max-width: 700px;
 }
